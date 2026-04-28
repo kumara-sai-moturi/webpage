@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Google job vacancies
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+<body>
+    <div id="navbar">
+        <img id="logo"
+            src="https://imgs.search.brave.com/Sg1-T1akb4I0CYxmmxvuFB2J2eBMj5wM4Pagb6mojMA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L2xv/Z29wZWRpYS9pbWFn/ZXMvNy83OS9Hb29n/bGVfbG9nb18yMDEw/XzNELnBuZy9yZXZp/c2lvbi9sYXRlc3Qv/c2NhbGUtdG8td2lk/dGgtZG93bi8zMDA_/Y2I9MjAyNDAzMjIy/MjExMDU"
+            alt="google">
+    </div>
+    <img id="banner"
+        src="https://images.unsplash.com/photo-1678483790053-71367bc7a02c?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="banner" height="300px" width="100%">
+    <h1>
+        About Google
+    </h1>
+    <div class="about">
+        <div id="description">
+            <p style="margin-top: 0;">
+
+                <b>Google</b> is actively hiring for
+                a wide range of roles across engineering,
+                product management, data science, hardware,
+                and business functions globally. Job descriptions typically include
+                a company overview, role-specific
+                responsibilities, and required qualifications.
+            </p>
+            <p>We also offer 2 Industry-focused bootcamps:
+            <ol>
+                <li>
+                    <a href="https://metana.io/full-stack-software-engineer-bootcamp/" target="_blank">
+                        Fullstack Developer Bootcamp
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.geeksforgeeks.org/courses/black-friday-exclusive-data-science-bootcamp"
+                        target="_blank">
+                        Data Science Bootcamp
+                    </a>
+                </li>
+
+                </p>
+            </ol>
+        </div>
+        <div id="team">
+            <img id="team-img"
+                src="https://plus.unsplash.com/premium_photo-1661767467261-4a4bed92a507?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="team">
+        </div>
+    </div>
+
+
+
+    <h2>Job Opportunities</h2>
+    <div id="jobs">
+        <table id="jobs-table">
+            <tr class="jobs-header-row">
+
+                <th rowspan="2">Job Title</th>
+                <th colspan="2">Location</th>
+                <th rowspan="2">Salary</th>
+                <th rowspan="2">Posted On</th>
+            </tr>
+            <tr class="jobs-header-row">
+                <th>City</th>
+                <th>Country</th>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Frontened Developer</td>
+                <td>Bengaluru</td>
+                <td>India</td>
+                <td>₹12,00,000</td>
+                <td>Mar 3,2025</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Full Stack Developer</td>
+                <td>Hyderabad</td>
+                <td>India</td>
+                <td>₹15,00,000</td>
+                <td>April 6,2025</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Data Scientist</td>
+                <td>New Delhi</td>
+                <td>India</td>
+                <td>$175,000</td>
+                <td>Dec 28,2025</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Machine Learning Engineer</td>
+                <td>Remote</td>
+                <td>$80,000</td>
+                <td> </td>
+                <td>Sep 15,2025</td>
+            </tr>
+        </table>
+    </div>
+    <div id="application">
+        <h2>Submit Your Application</h2>
+        <form id="application-form"
+        action="https://formbold.com/s/9mJ04"
+        method="POST"
+        enctype="multipart/form-data"
+        >
+            <div class="form-elements">
+                <label for="name">Full Name</label><br>
+                <input type="text" id="name" name="Full_Name" required placeholder="John doe">
+
+
+            </div>
+            <div class="form-elements">
+                <label for="email">Email Id</label><br>
+                <input type="email" id="email" name="email" required placeholder="johndoe@gmail.com">
+            </div>
+            <div class="form-elements">
+                <label for="phone_number">Phone</label><br>
+                <input type="tel" id="phone" name="phone_number" required placeholder="+9162749491263">
+            </div>
+            <div class="form-elements">
+                <label for="dob">Date Of Birth</label><br>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <div class="form-elements">
+                
+                <label for="position">Position Applied For</label><br>
+                <select id="position" name="Position Applied" required>
+                    <option value="">Select Position</option>
+                <option value="Frontened Developer">Frontened Developer</option>
+                <option value="Full Stack Developer">Full Stack Developer</option>
+                <option value="Data Scientist">Data Scientist</option>
+                <option value="Machine Learning Engineer">Machine Learning Engineer</option>
+                </select>
+            </div>
+            <div class="form-elements">
+                <label for="resume">Upload Resume</label><br>
+                <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx"required>
+            </div>
+            <div class="form-elements">
+                <label for="cover_letter">Cover Letter</label><br>
+                <textarea name="cover_letter" id="cover_letter" rows="4" placeholder="Explain what makes you sutiable for the job..."></textarea>
+            </div>
+            <div class="form-elements">
+                <input type="checkbox" id="checkbox" name="checkbox" required>
+                <label for="checkbox">I agree to the terms and conditions </label>
+            </div>
+            <div class="form-elements">
+                
+                <input type="submit" value="Submit Application">
+
+            </div>
+        </form>
+    </div>
+
+    <div id="footer">
+
+        <ul id="footer-links">
+
+            <li>
+                <a href="https://grow.google/intl/en_in/learn-skills/" target="_blank">
+                    Courses
+                </a>
+
+            </li>
+            <li>
+                <a href="https://www.google.com/about/careers/applications/" target="_blank">
+                    Programs
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/results?search_query=google" target="_blank">
+                    YouTube
+                </a>
+            </li>
+
+        </ul>
+        <span class="copywrite">© 2025, Google</span>
+    </div>
+
+
+</body>
+</head>
+
+</html>
